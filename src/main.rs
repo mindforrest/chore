@@ -9,7 +9,7 @@ use err::Error::*;
 
 macro_rules! path {
     ($h:ident, $f: literal) => {
-        [&$h, concat!(".chore/", $f)].iter().collect()
+        [&$h, concat!(".config/chore/", $f)].iter().collect()
     };
 }
 
